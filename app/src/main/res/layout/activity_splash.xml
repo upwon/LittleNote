@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundBg"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.xianwen.wang.ui.SplashActivity">
+
+    <ImageView
+        android:layout_width="121dp"
+        android:layout_height="123dp"
+        android:src="@mipmap/ic_launcher2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/app_name"
+        android:textColor="@color/primary_text"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="123dp"
+        android:layout_marginTop="10dp"
+
+        android:text="@string/app_wxw"
+        android:textColor="@color/primary_text"
+        android:textSize="18sp"
+        tools:text="通信卓越151王先文" />
+
+    <TextView
+        android:id="@+id/splash_tv_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textColor="@color/primary_text"
+        android:textSize="16sp" />
+</LinearLayout>
